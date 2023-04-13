@@ -22,7 +22,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.
 
 ## Aspectos técnicos relevantes
 
-# A continuación se describe en que parte del prototipo se desarrolla cada historia de usuario:
+#### A continuación se describe en que parte del prototipo se desarrolla cada historia de usuario:
 
 *Emparejar sonidos según intensidad --> intensidad.html
 *Emparejar sonidos según timbre --> timbre.html
