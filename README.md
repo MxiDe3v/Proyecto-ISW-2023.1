@@ -24,8 +24,11 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.
 
 #### A continuación se describe en que parte del prototipo se desarrolla cada historia de usuario:
 
-*Emparejar sonidos según intensidad --> intensidad.html
-*Emparejar sonidos según timbre --> timbre.html
++Emparejar sonidos según intensidad --> intensidad.html
++Emparejar sonidos según timbre --> timbre.html
+
+*
+*
 *Generar resúmen --> resumen.html
 *Emparejar sonidos según altura --> altura.html 
 *Mostrar figuras rítmicas --> figuras_ritmicas.html
