@@ -16,7 +16,9 @@ class User(BaseModel):
     email: Optional[str]
     password: str
 
-@app.post("/users")
+
+# crea un nuevo usuario
+@app.post("/register")
 async def createUsers(user: User):
     conn = connection.connection()
     cur = conn.cursor()
@@ -32,6 +34,7 @@ async def createUsers(user: User):
         print(e)
         return JSONResponse(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+# muestra los datos de un usuario dado un id
 @app.get("/users/{id}")
 async def showUser(id : int):
     conn = connection.connection()
@@ -46,6 +49,7 @@ async def showUser(id : int):
         print(e)
         return JSONResponse(status_code = status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+# actualiza los datos de un usuario dado una id
 @app.put("/users/{id}")
 async def updateUser(id: int, new_data: User):
     conn = connection.connection()
@@ -64,6 +68,7 @@ async def updateUser(id: int, new_data: User):
         print(e)
         return JSONResponse(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+# elimina los datos de un usuario
 @app.delete("/users/{id}")
 async def deleteUser(id: int):
     conn = connection.connection()
