@@ -17,17 +17,19 @@ Este es el repositorio del "Grupo Null Pointer", cuyos integrantes son:
 
 ## Definiciones del SuperGrupo
 
-Scrum Master: José Rojas
+### Scrum Master: 
 
-Grupo A:
+José Rojas
+
+### Grupo A:
 + Javier Jaure
 + Juan Diego Arias
 + Hernán Fuentes
-Grupo B:
+### Grupo B:
 + Tomás Carmona
 + Maximiliano Tapia
 + Ignacio Ortiz
-Grupo C:
+### Grupo C:
 + Javier Tapia
 + Sebastián Olivares
 + Natalia Acevedo
