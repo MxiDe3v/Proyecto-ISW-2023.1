@@ -15,6 +15,24 @@ Este es el repositorio del "Grupo Null Pointer", cuyos integrantes son:
 
 *Tutor*: Javier Pérez
 
+##Definiciones del SuperGrupo
+
+Scrum Master: José Rojas
+
+Grupo A:
+Javier Jaure
+Juan Diego Arias
+Hernán Fuentes
+Grupo B:
+Tomás Carmona
+Maximiliano Tapia
+Ignacio Ortiz
+Grupo C:
+Javier Tapia        Sebastián Olivares
+Natalia Acevedo
+
+
+
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.cl/javier.perez/inf225-2023-1-null-pointer/-/wikis/home)
 
