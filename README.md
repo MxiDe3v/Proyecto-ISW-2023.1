@@ -20,16 +20,17 @@ Este es el repositorio del "Grupo Null Pointer", cuyos integrantes son:
 Scrum Master: José Rojas
 
 Grupo A:
-Javier Jaure
-Juan Diego Arias
-Hernán Fuentes
++ Javier Jaure
++ Juan Diego Arias
++ Hernán Fuentes
 Grupo B:
-Tomás Carmona
-Maximiliano Tapia
-Ignacio Ortiz
++ Tomás Carmona
++ Maximiliano Tapia
++ Ignacio Ortiz
 Grupo C:
-Javier Tapia        Sebastián Olivares
-Natalia Acevedo
++ Javier Tapia
++ Sebastián Olivares
++ Natalia Acevedo
 
 
 
