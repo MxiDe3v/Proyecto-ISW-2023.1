@@ -15,7 +15,7 @@ Este es el repositorio del "Grupo Null Pointer", cuyos integrantes son:
 
 *Tutor*: Javier Pérez
 
-##Definiciones del SuperGrupo
+## Definiciones del SuperGrupo
 
 Scrum Master: José Rojas
 
