@@ -64,11 +64,11 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.
 
 ## Aspectos técnicos relevantes
 ### Definición de branches:
-main: Production branch, se hace merge desde la branch test a esta branch cuando todo esté funcionando correctamente
-test: Branch de testing, en esta branch se hace merge de las diferentes features de cada grupo, se prueban y luego se hace merge a la main
-grupo-A: Branch de desarrollo de features del grupo A
-grupo-B: Branch de desarrollo de features del grupo B
-grupo-C: Branch de desarrollo de features del grupo C
+main: Production branch, se hace merge desde la branch test a esta branch cuando todo esté funcionando correctamente\\
+test: Branch de testing, en esta branch se hace merge de las diferentes features de cada grupo, se prueban y luego se hace merge a la main\
+grupo-A: Branch de desarrollo de features del grupo A\\
+grupo-B: Branch de desarrollo de features del grupo B\
+grupo-C: Branch de desarrollo de features del grupo C\
 
 
 
