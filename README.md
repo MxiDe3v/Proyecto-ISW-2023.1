@@ -34,6 +34,19 @@ José Rojas
 + Sebastián Olivares
 + Natalia Acevedo
 
+### Asignaciones de HU:
+
+### Grupo A:
+
+De la #1 a la #5
+
+### Grupo B:
+
+De la #6 a la #10
+
+### Grupo C:
+
+De la #11 a la #16
 
 
 ## Wiki
