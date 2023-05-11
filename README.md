@@ -38,15 +38,32 @@ José Rojas
 
 ### Grupo A:
 
-De la #1 a la #5
+5:  Notificar Errores
+6:  Generar resumen
+10: Componer melodía
+13: Mostrar Memorice
+14: Reconocer tempo
+18: Mostrar silencios
 
 ### Grupo B:
 
-De la #6 a la #10
+1:  Dibujar llave de sol en pentagrama
+2:  Ver y tocar notas musicales
+3:  Mostrar corazón a pulso
+4:  Mostrar figuras rítmicas
+12: Detectar nota
+15: Variar actividades
+
+
 
 ### Grupo C:
 
-De la #11 a la #16
+7:  Emparejar sonidos según frecuencia
+8:  Emparejar sonidos según timbre
+9:  Emparejar sonidos según intensidad
+11: Emparejar sonidos según duración
+16: Escoger actividades
+17: Mostrar Acordes
 
 
 ## Wiki
