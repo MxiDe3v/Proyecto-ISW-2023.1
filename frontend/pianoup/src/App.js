@@ -18,7 +18,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
            </Routes>
-            <h1>asdasdas</h1>
+            <h1>s</h1>
           </BrowserRouter>
   );
 }
