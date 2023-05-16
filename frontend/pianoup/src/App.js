@@ -18,6 +18,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
            </Routes>
+            <h1>This is a test</h1>
           </BrowserRouter>
   );
 }
