@@ -2,8 +2,6 @@ import './App.css';
 
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-
-import React from 'react';
 import Image from 'react-bootstrap/Image';
 
 import Home from './Home';
@@ -11,12 +9,6 @@ import Login from './user/Login';
 import Register from './user/Register';
 
 import Notas from './etapas/etapa-1/notas-musicales/Notas'
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
-
-import Notas from './etapas/etapa-1/notas-musicales/Notas'
-
-
-import Menu from './Menu';
 import Etapa1 from './etapas/Etapa1';
 import Etapa2 from './etapas/Etapa2';
 import Etapa3 from './etapas/Etapa3';
