@@ -1,6 +1,6 @@
-# Grupo Null Pointer
+# SuperGrupo C
 
-Este es el repositorio del "Grupo Null Pointer", cuyos integrantes son:
+Este es el repositorio del "SuperGrupo C", cuyos integrantes son:
 
 + SEBASTIÁN OLIVARES - 201721047-8
 + NATALIA ACEVEDO - 201804526-8
@@ -34,37 +34,25 @@ José Rojas
 + Sebastián Olivares
 + Natalia Acevedo
 
-### Asignaciones de HU:
+### Asignaciones de HU para la entrega 4:
 
 ### Grupo A:
 
-+ 5:  Notificar Errores
-+ 6:  Generar resumen
-+ 10: Componer melodía
 + 13: Mostrar Memorice
 + 14: Reconocer tempo
-+ 18: Mostrar silencios
 
 ### Grupo B:
 
-+ 1:  Dibujar llave de sol en pentagrama
 + 2:  Ver y tocar notas musicales
-+ 3:  Mostrar corazón a pulso
-+ 4:  Mostrar figuras rítmicas
-+ 12: Detectar nota
-+ 15: Variar actividades
-
-
 
 ### Grupo C:
 
-+ 7:  Emparejar sonidos según frecuencia
-+ 8:  Emparejar sonidos según timbre
-+ 9:  Emparejar sonidos según intensidad
 + 11: Emparejar sonidos según duración
-+ 16: Escoger actividades
-+ 17: Mostrar Acordes
 
+### Grupo D:
+
++ 3:  Mostrar corazón a pulso
++ 16: Escoger actividades
 
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.cl/javier.perez/inf225-2023-1-null-pointer/-/wikis/home)
