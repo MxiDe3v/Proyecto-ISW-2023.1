@@ -72,4 +72,6 @@ grupo-B: Branch de desarrollo de features del grupo B
 
 grupo-C: Branch de desarrollo de features del grupo C
 
+grupo-D: Branch de desarrollo de features del grupo D
+
 
