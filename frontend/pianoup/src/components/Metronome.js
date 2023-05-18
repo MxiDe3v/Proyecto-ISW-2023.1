@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import ResponsiveAppBar from "../ResponsiveAppBar";
+
 import image from "./assets/heart.png";
 import "./metronome.css";
 

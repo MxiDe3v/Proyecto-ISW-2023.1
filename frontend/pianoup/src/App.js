@@ -16,10 +16,9 @@ import { EmparejarDuracion } from './components/EmparejarDuracion';
 import { EmparejarTimbre } from './components/EmparejarTimbre';
 import { EmparejarIntensidad } from './components/EmparejarIntensidad';
 import { EmparejarFrecuencia } from './components/EmparejarFrecuencia';
-
 import Memorice from './Memorice';
 import Tempo from './Tempo';
-
+import Metronome from "./components/Metronome";
 import Card from './components/Card';
 
 import { images } from './import';
