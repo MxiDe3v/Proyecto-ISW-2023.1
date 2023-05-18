@@ -24,33 +24,26 @@ José Rojas
 ### Grupo A:
 + Javier Jaure
 + Juan Diego Arias
-+ Hernán Fuentes
 ### Grupo B:
 + Tomás Carmona
-+ Maximiliano Tapia
-+ Ignacio Ortiz
++ Hernán Fuentes
 ### Grupo C:
 + Javier Tapia
-+ Sebastián Olivares
 + Natalia Acevedo
+### Grupo D:
++ Sebastián Olivares
++ Maximiliano Tapia
++ Ignacio Ortiz
 
 ### Asignaciones de HU para la entrega 4:
-
 ### Grupo A:
-
 + 13: Mostrar Memorice
 + 14: Reconocer tempo
-
 ### Grupo B:
-
 + 2:  Ver y tocar notas musicales
-
 ### Grupo C:
-
 + 11: Emparejar sonidos según duración
-
 ### Grupo D:
-
 + 3:  Mostrar corazón a pulso
 + 16: Escoger actividades
 
