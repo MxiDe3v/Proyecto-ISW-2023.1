@@ -9,6 +9,7 @@ import Register from './user/Register';
 import Etapa1 from './etapas/Etapa1';
 import Etapa2 from './etapas/Etapa2';
 import Etapa3 from './etapas/Etapa3';
+import Metronome from "./components/Metronome";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                   <Route path="/etapa1" element={<Etapa1 />} />
                   <Route path="/etapa2" element={<Etapa2 />} />
                   <Route path="/etapa3" element={<Etapa3 />} />
+                  <Route path="/pulso" element={<Metronome />} />
                 </Routes>
                 <div className='d-flex justify-content-center'>
                     <Link to="/etapa1">
