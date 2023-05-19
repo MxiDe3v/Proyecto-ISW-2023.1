@@ -1,6 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { Card, CardContent, Typography, CardMedia } from "@mui/material";
 import ResponsiveAppBar from '../ResponsiveAppBar';
@@ -8,7 +6,6 @@ import './Etapa.css';
 
 function Etapa2() {
 	return (
-		<>
 			<h1>Etapa 2</h1>
 
 			<div className='d-flex justify-content-center'>

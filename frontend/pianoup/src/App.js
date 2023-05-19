@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Image from 'react-bootstrap/Image';
+import { Image } from 'react-bootstrap';
 
 import Home from './Home';
 import Login from './user/Login';

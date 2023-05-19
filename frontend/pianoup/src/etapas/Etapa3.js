@@ -1,6 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { Card, CardContent, Typography, CardMedia } from "@mui/material";
 import ResponsiveAppBar from '../ResponsiveAppBar';
