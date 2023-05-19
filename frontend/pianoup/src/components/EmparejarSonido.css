@@ -166,3 +166,45 @@ audio::-webkit-media-controls-current-time-display {
 audio::-webkit-media-controls-time-remaining-display {
   display: none;
 }
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.item {
+  margin: 5px 0px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background: #ddd;
+}
+
+.item-name {
+  font-size: 16px;
+}
+
+.delete-button {
+  padding: 6px 10px;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #c00;
+}
