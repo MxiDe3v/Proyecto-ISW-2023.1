@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import ResponsiveAppBar from "../ResponsiveAppBar";
+import image from "./assets/heart.png";
 import "./metronome.css";
 
 const click1 = "//daveceddia.com/freebies/react-metronome/click1.wav";
@@ -87,20 +88,23 @@ class Metronome extends Component {
         <>
         <ResponsiveAppBar></ResponsiveAppBar>
         <div className="metronome">
-        <div className="bpm-slider">
-          <p>Pulso</p>
-          <p>{bpm} BPM</p>
-          <input
-            type="range"
-            min={40}
-            max={180}
-            step={20}
-            value={bpm}
-            onChange={this.handleInputChange}
-          />
-        </div>
-        <Button variant="contained" onClick={this.startStop}>{isPlaying ? <StopIcon></StopIcon> : <PlayArrowIcon></PlayArrowIcon>}</Button>
+          <div className="bpm-slider">
+            <h2 className="title-slider">Corazon a Pulso</h2>
+            <p>{bpm} BPM</p>
+            <input
+              type="range"
+              min={40}
+              max={180}
+              step={20}
+              value={bpm}
+              onChange={this.handleInputChange}
+            />
+          </div>
+          <Button variant="contained" onClick={this.startStop}>{isPlaying ? <StopIcon></StopIcon> : <PlayArrowIcon></PlayArrowIcon>}</Button>
       </div>
+      <div className="img-heartbeat">
+          <img src={image}></img>
+        </div>
       </>
     );
   }
