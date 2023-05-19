@@ -1,7 +1,7 @@
 import './App.css';
 
 import { Routes, Route, BrowserRouter, Link } from 'react-router-dom';
-import Image from 'react-bootstrap/Image';
+import { Image } from 'react-bootstrap';
 
 import Entrypoint from './Entrypoint';
 import Login from './user/Login';
