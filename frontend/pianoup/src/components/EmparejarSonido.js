@@ -26,6 +26,13 @@ export const EmparejarSonido = () => {
         },
     ]);
 
+    // Delete the item with the given id
+  // This function will be called when an "X" button is clicked
+    const removeItem = (id) => {
+        const updatedList = tasks.filter((item) => item.id !== id);
+        setTasks(updatedList);
+    };
+
     const getList = (list) => {
         return tasks.filter(item => item.list === list)
     }
@@ -68,6 +75,14 @@ export const EmparejarSonido = () => {
                         {getList(1).map(item => (
                             <div className='dd-element' 
                             key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <div>
+                                    <button
+                                        className='delete-button'
+                                        onClick={() => removeItem(item.id)}
+                                        >
+                                        X
+                                    </button>
+                                </div>
                                 <strong className='title'>{item.title}</strong>
                                 <img className='img' src={item.body} alt={item.title}></img>
                                 <p>Escucha su sonido (precaucion volumen)</p>
