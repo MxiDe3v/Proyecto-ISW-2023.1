@@ -40,9 +40,13 @@ José Rojas
 + 13: Mostrar Memorice
 + 14: Reconocer tempo
 ### Grupo B:
-+ 2:  Ver y tocar notas musicales
++ 1: Dibujar llave de sol en pentagrama
++ 2: Ver y tocar notas musicales
 ### Grupo C:
 + 11: Emparejar sonidos según duración
++ 9:  Emparejar sonidos según intensidad
++ 8:  Emparejar sonidos según timbre
++ 7:  Emparejar sonidos según frecuencia
 ### Grupo D:
 + 3:  Mostrar corazón a pulso
 + 16: Escoger actividades
