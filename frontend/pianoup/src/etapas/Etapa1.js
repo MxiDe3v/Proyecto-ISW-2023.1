@@ -11,8 +11,7 @@ function Etapa1() {
 			<div className='d-flex justify-content-center'>
 
 				<Card className='m-5'>
-					<Link to='/memorice'>
-					<Link to='/pulso'>
+					<Link to='/notas'>
 						<CardMedia 
 							component='img'
 							height='300'
@@ -20,10 +19,9 @@ function Etapa1() {
 						/>
 					</Link>
 					<CardContent>
-						<Link to='/memorice'>
-						<Link to='/pulso'>
+						<Link to='/notas'>
 							<Typography gutterBottom variant='h3'>
-								Memorice
+                                Notas musicales
 							</Typography>
 						</Link>
 						<Typography variant='body2'>
@@ -33,8 +31,7 @@ function Etapa1() {
 				</Card>
 				
 				<Card className='m-5'>
-					<Link to='/tempo'>
-					<Link to='/pulso'>
+					<Link to='/metronome'>
 						<CardMedia 
 							component='img'
 							height='300'
@@ -42,12 +39,9 @@ function Etapa1() {
 						/>
 					</Link>
 					<CardContent>
-						<Link to='/tempo'>
+						<Link to='/metronome'>
 							<Typography gutterBottom variant='h3'>
-							    Tempo	
-						<Link to='/pulso'>
-							<Typography gutterBottom variant='h3'>
-								Compositor
+                                Metronomo
 							</Typography>
 						</Link>
 						<Typography variant='body2'>

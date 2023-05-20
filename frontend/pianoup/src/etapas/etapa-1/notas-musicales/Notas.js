@@ -65,7 +65,6 @@ export default function Notas() {
   
 return (
     <>
-      <ResponsiveAppBar/>
       <Typography 
         textAlign="center"
         variant="h5"

@@ -96,6 +96,13 @@ function App() {
                 <Route path="/etapa3" element={<Etapa3 />} />
                 <Route path="/memorice" element={<Memorice/>}/>
                 <Route path="/tempo" element={<Tempo/>}/>
+                <Route path="/emparejar-duracion" element={<EmparejarDuracion/>}/>
+                <Route path="/emparejar-timbre" element={<EmparejarTimbre/>}/>
+                <Route path="/emparejar-intensidad" element={<EmparejarIntensidad/>}/>
+                <Route path="/emparejar-frecuencia" element={<EmparejarFrecuencia/>}/>
+                <Route path="/metronome" element={<Metronome/>}/>
+                <Route path="/card" element={<Card/>}/>
+                <Route path="/notas" element={<Notas/>}/>
             </Routes>
       </div>
     /*

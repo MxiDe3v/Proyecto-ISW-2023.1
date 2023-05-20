@@ -24,7 +24,6 @@ import DoImg from './imgs/7Do.png';
 
 export default function DnD() {
 
-
     const [tasks, setTasks] = useState([
         {
             id: 0,
