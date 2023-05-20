@@ -55,7 +55,6 @@ function Etapa1() {
 						</Typography>
 					</CardContent>
 				</Card>
-
 			</div>
 		</>
 	);
