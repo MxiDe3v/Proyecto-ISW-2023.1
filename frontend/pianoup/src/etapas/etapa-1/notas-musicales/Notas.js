@@ -5,6 +5,7 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Typography from "@mui/material/Typography";
+import DnD from "./DnD";
 import {useEffect, useState} from 'react';
 
 import Dom from './audio/0Dom.mp3';
@@ -14,7 +15,7 @@ import Fa from './audio/3Fa.mp3';
 import Sol from './audio/4Sol.mp3';
 import La from './audio/5La.mp3';
 import Si from './audio/6Si.mp3';
-// import Do from './audio/7Do.mp3';
+import Do from './audio/7Do.mp3';
 
 import DomImg from './imgs/0Dom.png';
 import ReImg from './imgs/1Re.png';
@@ -59,7 +60,7 @@ export default function Notas() {
     new Audio(Si).play();
   }
   function playDo(){
-    // new Audio(Do).play();
+    new Audio(Do).play();
   }
   
 return (
@@ -67,7 +68,7 @@ return (
       <ResponsiveAppBar/>
       <Typography 
         textAlign="center"
-        variant="h4"
+        variant="h5"
         noWrap
         sx={{
           mx: 2,
@@ -81,7 +82,7 @@ return (
           textDecoration: "none",
           }}>
 
-        Tocar notas
+        ¡Presiona las notas para escucharlas!
       </Typography>
       <Container maxWidth="md">
         <Grid 
@@ -160,6 +161,17 @@ return (
             <Button
               variant="text"
               style={{flexDirection:'column'}}
+              onClick={playSi}>
+              <img src={SiImg} alt="La" width={"60px"}/>
+              &nbsp;{`Si`}
+            </Button>
+          </Grid>
+          <Grid
+            item xs={1.5}
+            style={{ display: "flex", justifyContent: "center" }}>
+            <Button
+              variant="text"
+              style={{flexDirection:'column'}}
               onClick={playDo}>
               <img src={DoImg} alt="Do" width={"60px"}/>
               &nbsp;{`Do`}
@@ -169,7 +181,7 @@ return (
       </Container>
       <Typography 
         textAlign="center"
-        variant="h4"
+        variant="h5"
         noWrap
         sx={{
           mt: 6,
@@ -184,7 +196,8 @@ return (
           textDecoration: "none",
           }}>
 
-        Arrastrar Notas
+        Arrastra las notas al pentagrama para componer tu melodía
       </Typography>
+      <DnD></DnD>
     </>
 )}
