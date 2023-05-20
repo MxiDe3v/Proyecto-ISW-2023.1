@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 //import { createRoot } from 'react-dom/client';
 import { Stage, Layer, Image } from 'react-konva';
 import useImage from 'use-image';
@@ -67,6 +68,11 @@ export const Pentagrama = ({imagen}) => {
               })}
             </Layer>
           </Stage>
+        </div>
+        <div>
+            <Link to="/llavesol"> 
+                <button>Volver</button>
+            </Link>
         </div>
       </div>
     );
