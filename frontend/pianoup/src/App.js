@@ -29,7 +29,7 @@ function App() {
               <Route path="/etapa2" element={<Etapa2 />} />
               <Route path="/etapa3" element={<Etapa3 />} />
             </Routes>
-            <EmparejarFrecuencia/>
+            <EmparejarDuracion/>
       </div>
   );
 }
