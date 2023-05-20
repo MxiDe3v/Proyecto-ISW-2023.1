@@ -60,6 +60,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.
 + [Video presentación cliente parte 2](https://aula.usm.cl/mod/resource/view.php?id=4151228)
 + [Video presentación avance 1](HTTPS://YOUTU.BE/Y5VN54HEFK8​)
 + [Video presentación Hito 3](https://www.youtube.com/watch?v=8DXnu7CqKCg)
++ [Video prototipo frontend](https://youtu.be/v9CdPr-FzDo)
 + Video presentación final (EN PROCESO)
 
 
