@@ -90,8 +90,8 @@ export default function Tempo() {
       </figure> 
       </div>
 
-        <Link to="/" className="button-bottom-center">
-            Home
+        <Link to="/etapa3" className="button-bottom-center">
+            Volver
         </Link>
     </div>
   );
