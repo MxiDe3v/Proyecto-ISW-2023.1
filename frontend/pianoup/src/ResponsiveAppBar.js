@@ -138,7 +138,7 @@ const ResponsiveAppBar = (props) => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Home
           </Typography>
 
           {/* ------------Botones menu navbar------------ */}
