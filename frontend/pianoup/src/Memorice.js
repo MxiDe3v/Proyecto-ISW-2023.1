@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom"
 import Card from './components/Card';
+import './Card.css';
 
 import { images } from './import';
 
-function App() {
+function Memorice() {
 
   const [cards, setCards] = useState([]);
   const [firstCard, setFirstCard] = useState({});
@@ -67,6 +69,7 @@ function App() {
 
   return (
     <div className='app'>
+      <h1 className="title">Memorice</h1>
       <div className='cards-container' >
         {
           cards.map((card, index) => (
@@ -81,8 +84,14 @@ function App() {
           ))
         }
       </div>
+      <ul>
+        <li>
+          <Link to={"/"} className="button-bottom-center">Home</Link>
+        </li>
+      </ul>
+
     </div>
   );
 }
 
-export default App;
+export default Memorice;
