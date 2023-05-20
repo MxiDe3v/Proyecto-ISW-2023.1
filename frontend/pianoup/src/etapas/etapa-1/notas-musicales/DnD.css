@@ -56,7 +56,7 @@ h1, h1, h3, h4, p{
   margin-bottom: 1rem;
 }
 
-body{
+body2{
   background-color: #f4f4f5;
   /* padding: 40px; */
   /* padding-top: 5%; */
@@ -78,7 +78,7 @@ h1{
     width: 60px;
 }
 
-.column{
+.column2{
     display: flex;
     background-color: #F6F8FC;
     min-height: 200px;
@@ -89,28 +89,28 @@ h1{
     text-align: center;
 }
 
-.column--1{
+.column2--1{
     border-color: #FF9E4A;
     width: 1500px;
     flex-direction: column;
 }
 
-.column--1 .title{
+.column2--1 .title{
     color: #FF9E4A;
 }
 
-.column--2{
+.column2--2{
     flex-direction: column;
     border-color: #C56BE2;
     /* width: 300px; */
 }
 
-.column--2 .title{
+.column2--2 .title{
     color: #C56BE2;
 }
 
 /* DRAG AND DROP */
-.drag-and-drop{
+.drag-and-drop1{
     display: flex;
     flex-direction: column;
     grid-gap: 40px;
@@ -122,7 +122,7 @@ h1{
   grid-gap: 40px;
 }
 
-.dd-zone{
+.dd-zone2{
     display: flex;
     flex-direction: row;
     grid-gap: 16px;
@@ -130,7 +130,7 @@ h1{
     width: 100%;
 }
 
-.dd-element{
+.dd-element2{
     /* font-size: 18px; */
     /* background-color: #FFFFFF; */
     /* width: 100%; */
@@ -141,7 +141,7 @@ h1{
     color: #5b5b73;
 }
 
-.dd-element .body{
+.dd-element2 .body{
     display: flex;
     justify-content: center;
     height: 100%;

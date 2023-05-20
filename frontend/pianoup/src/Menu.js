@@ -23,6 +23,13 @@ function Menu() {
                     width={300} 
                     height={300}/>
             </Link>
+
+            <Link to="/juegos">
+                <Image className="m-5" src="images/logo.png"
+                    rounded
+                    width={300} 
+                    height={300}/>
+            </Link>
         </div>
   );
 }

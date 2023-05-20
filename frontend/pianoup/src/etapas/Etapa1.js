@@ -49,6 +49,26 @@ function Etapa1() {
 						</Typography>
 					</CardContent>
 				</Card>
+
+				<Card className='m-5'>
+					<Link to='/emparejar-frecuencia'>
+						<CardMedia 
+							component='img'
+							height='300'
+							image='images/act1.png'
+						/>
+					</Link>
+					<CardContent>
+						<Link to='/emparejar-frecuencia'>
+							<Typography gutterBottom variant='h3'>
+                                Emparejar-frecuencia
+							</Typography>
+						</Link>
+						<Typography variant='body2'>
+							Progreso : {}
+						</Typography>
+					</CardContent>
+				</Card>
 			</div>
 		</>
 	);

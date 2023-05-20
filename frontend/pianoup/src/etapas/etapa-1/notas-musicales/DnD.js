@@ -257,83 +257,83 @@ export default function DnD() {
             </h1>
             <br/>
 
-            <div className='drag-and-drop'>
-                <div className='column column--2'>
+            <div className='drag-and-drop1'>
+                <div className='column2 column2--2'>
                     <h3>Do</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 8))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 8))}>
                         {getList(8).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Si</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 7))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 7))}>
                         {getList(7).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>La</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 6))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 6))}>
                         {getList(6).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Sol</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 5))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 5))}>
                         {getList(5).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Fa</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 4))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 4))}>
                         {getList(4).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Mi</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 3))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 3))}>
                         {getList(3).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Re</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 2))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 2))}>
                         {getList(2).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                     <h3>Do</h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 1))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 1))}>
                         {getList(1).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
-                                <p className='body'>{item.body}</p>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                                <p className='body2'>{item.body2}</p>
                             </div>
                         ))}
                     </div>
                 </div>
 
-                <div className='column column--1'>
+                <div className='column2 column2--1'>
                     <h3>
                         Tus Notas Musicales
                     </h3>
-                    <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 0))}>
+                    <div className='dd-zone2' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 0))}>
                         {getList(0).map(item => (
-                            <div className='dd-element' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
+                            <div className='dd-element2' key={item.id} draggable onDragStart={(evt) => startDrag(evt, item)}>
                                 <strong className='title'>{item.title}</strong>
-                                <div className='body'>{item.body}</div>
+                                <div className='body2'>{item.body2}</div>
                             </div>
                         ))}
                     </div>

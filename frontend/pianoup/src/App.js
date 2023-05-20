@@ -12,6 +12,7 @@ import Notas from './etapas/etapa-1/notas-musicales/Notas'
 import Etapa1 from './etapas/Etapa1';
 import Etapa2 from './etapas/Etapa2';
 import Etapa3 from './etapas/Etapa3';
+import Juegos from './etapas/Juegos';
 import { EmparejarDuracion } from './components/EmparejarDuracion';
 import { EmparejarTimbre } from './components/EmparejarTimbre';
 import { EmparejarIntensidad } from './components/EmparejarIntensidad';
@@ -94,6 +95,7 @@ function App() {
                 <Route path="/etapa1" element={<Etapa1 />} />
                 <Route path="/etapa2" element={<Etapa2 />} />
                 <Route path="/etapa3" element={<Etapa3 />} />
+                <Route path="/juegos" element={<Juegos/>} />
                 <Route path="/memorice" element={<Memorice/>}/>
                 <Route path="/tempo" element={<Tempo/>}/>
                 <Route path="/emparejar-duracion" element={<EmparejarDuracion/>}/>
