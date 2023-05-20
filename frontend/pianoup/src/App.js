@@ -15,6 +15,7 @@ import Etapa3 from './etapas/Etapa3';
 import { EmparejarDuracion } from './components/EmparejarDuracion';
 import { EmparejarTimbre } from './components/EmparejarTimbre';
 import { EmparejarIntensidad } from './components/EmparejarIntensidad';
+import { EmparejarFrecuencia } from './components/EmparejarFrecuencia';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
               <Route path="/etapa2" element={<Etapa2 />} />
               <Route path="/etapa3" element={<Etapa3 />} />
             </Routes>
-            <EmparejarIntensidad/>
+            <EmparejarFrecuencia/>
       </div>
   );
 }

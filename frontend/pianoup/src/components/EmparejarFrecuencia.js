@@ -1,9 +1,9 @@
 import React from "https://cdn.skypack.dev/react@17.0.1"
 import { useState } from 'react'
-import leon from './images/leon.jpg'
-import vaca from './images/vaca.jpg'
-import lion_sound from './sounds/lion_roar.mp3'
-import cow_sound from './sounds/cow_moo.mp3'
+import pollito from './images/pollito.jpg'
+import trombon from './images/trombon.jpg'
+import pio_sound from './sounds/pollito.mp3'
+import trombon_sound from './sounds/trombon.mp3'
 import './Emparejar.css'
 
 
@@ -12,16 +12,16 @@ export const EmparejarFrecuencia = () => {
     const [tasks, setTasks] = useState([
         { 
             id: 1,
-            title: 'Leon',
-            body: `${leon}`,
-            audio: lion_sound,
+            title: 'Pollito',
+            body: `${pollito}`,
+            audio: pio_sound,
             list: 1
         },
         { 
             id: 2,
-            title: 'Vaca',
-            body: `${vaca}`,
-            audio: cow_sound,
+            title: 'Trombon',
+            body: `${trombon}`,
+            audio: trombon_sound,
             list: 1
         },
     ]);
