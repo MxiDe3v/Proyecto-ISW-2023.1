@@ -41,7 +41,7 @@ const ResponsiveAppBar = (props) => {
     setAnchorElUser(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (e) => {
     setAnchorElNav(null);
   };
 
@@ -138,6 +138,8 @@ const ResponsiveAppBar = (props) => {
           >
             LOGO
           </Typography>
+
+          {/* ------------Botones menu navbar------------ */}
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button

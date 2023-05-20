@@ -7,6 +7,11 @@ import Home from './Home';
 import Login from './user/Login';
 import Register from './user/Register';
 
+import Notas from './etapas/etapa-1/notas-musicales/Notas'
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+import Notas from './etapas/etapa-1/notas-musicales/Notas'
+
 import Etapa1 from './etapas/Etapa1';
 import Etapa2 from './etapas/Etapa2';
 import Etapa3 from './etapas/Etapa3';
@@ -83,6 +88,7 @@ function App() {
   return (
         <div>
             <Routes>
+<<<<<<< HEAD
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login/>} />
                 <Route path="/register" element={<Register/>} />
