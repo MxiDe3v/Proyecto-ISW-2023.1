@@ -86,7 +86,7 @@ function Memorice() {
       </div>
       <ul>
         <li>
-          <Link to={"/"} className="button-bottom-center">Home</Link>
+          <Link to={"/juegos"} className="button-bottom-center">Volver</Link>
         </li>
       </ul>
 
