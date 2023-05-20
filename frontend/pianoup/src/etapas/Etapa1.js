@@ -7,6 +7,9 @@ import './Etapa.css';
 function Etapa1() {
 	return (
 		<>
+			<Link to="/"> 
+                <button>Volver</button>
+            </Link>
 			<h1>Etapa 1</h1>
 			<div className='d-flex justify-content-center'>
 				<Card className='m-5'>
