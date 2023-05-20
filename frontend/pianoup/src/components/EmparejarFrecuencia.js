@@ -7,7 +7,7 @@ import cow_sound from './sounds/cow_moo.mp3'
 import './Emparejar.css'
 
 
-export const EmparejarIntensidad = () => {
+export const EmparejarFrecuencia = () => {
     
     const [tasks, setTasks] = useState([
         { 
