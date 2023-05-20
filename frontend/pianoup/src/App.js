@@ -21,6 +21,9 @@ import Memorice from './Memorice';
 import Tempo from './Tempo';
 import Metronome from "./components/Metronome";
 import Card from './components/Card';
+import {Pentagrama} from './components/Pentagrama';
+import {LlaveSol} from './components/LlaveSol';
+
 
 import { images } from './import';
 
@@ -32,6 +35,8 @@ function App() {
 
   const [unflippedCards, setUnflippedCards] = useState([]);
   const [disabledCards, setDisabledCards] = useState([]);
+
+  const[imagen,SetImagen] = React.useState(null);
 
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -97,6 +102,12 @@ function App() {
                 <Route path="/etapa3" element={<Etapa3 />} />
                 <Route path="/juegos" element={<Juegos/>} />
                 <Route path="/memorice" element={<Memorice/>}/>
+                <Route path="/pentagrama" element={<Pentagrama
+                imagen = {imagen}
+                />} />
+                <Route path="/llavesol" element={<LlaveSol
+                  SetImagen = {SetImagen}
+                />} />
                 <Route path="/tempo" element={<Tempo/>}/>
                 <Route path="/emparejar-duracion" element={<EmparejarDuracion/>}/>
                 <Route path="/emparejar-timbre" element={<EmparejarTimbre/>}/>
