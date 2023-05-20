@@ -2,8 +2,7 @@ import React from 'react';
 //import { createRoot } from 'react-dom/client';
 import { Stage, Layer, Image } from 'react-konva';
 import useImage from 'use-image';
-import "./css/pentagrama.css";
-import "./css/llavesol.css";
+import "/pentagrama.css";
 import background from './images/pentagrama.png'
 
 const URLImage = ({ image }) => {
