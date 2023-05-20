@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { Card, CardContent, Typography, CardMedia } from "@mui/material";
 import ResponsiveAppBar from '../ResponsiveAppBar';
@@ -9,11 +8,11 @@ function Etapa1() {
 	return (
 		<>
 			<h1>Etapa 1</h1>
-
 			<div className='d-flex justify-content-center'>
 
 				<Card className='m-5'>
 					<Link to='/memorice'>
+					<Link to='/pulso'>
 						<CardMedia 
 							component='img'
 							height='300'
@@ -22,6 +21,7 @@ function Etapa1() {
 					</Link>
 					<CardContent>
 						<Link to='/memorice'>
+						<Link to='/pulso'>
 							<Typography gutterBottom variant='h3'>
 								Memorice
 							</Typography>
@@ -34,6 +34,7 @@ function Etapa1() {
 				
 				<Card className='m-5'>
 					<Link to='/tempo'>
+					<Link to='/pulso'>
 						<CardMedia 
 							component='img'
 							height='300'
@@ -44,6 +45,9 @@ function Etapa1() {
 						<Link to='/tempo'>
 							<Typography gutterBottom variant='h3'>
 							    Tempo	
+						<Link to='/pulso'>
+							<Typography gutterBottom variant='h3'>
+								Compositor
 							</Typography>
 						</Link>
 						<Typography variant='body2'>
@@ -51,7 +55,6 @@ function Etapa1() {
 						</Typography>
 					</CardContent>
 				</Card>
-
 			</div>
 		</>
 	);
