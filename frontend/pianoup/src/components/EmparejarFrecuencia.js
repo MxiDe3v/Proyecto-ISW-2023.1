@@ -1,5 +1,6 @@
 import React from "https://cdn.skypack.dev/react@17.0.1"
 import { useState } from 'react'
+import { Link } from "react-router-dom"
 import pollito from './images/pollito.jpg'
 import trombon from './images/trombon.jpg'
 import pio_sound from './sounds/pollito.mp3'
@@ -61,6 +62,9 @@ export const EmparejarFrecuencia = () => {
     }
     return (
         <>
+            <Link to="/etapa1"> 
+                <button>Volver</button>
+            </Link>
             <h1>
                 Emparejar según la frecuencia del sonido &nbsp;
             </h1>
