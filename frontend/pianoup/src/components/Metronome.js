@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Button from '@mui/material/Button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
-import ResponsiveAppBar from "../ResponsiveAppBar";
 import image from "./assets/heart.png";
 import "./metronome.css";
 
@@ -16,7 +15,7 @@ class Metronome extends Component {
     this.state = {
       isPlaying: false,
       count: 0,
-      bpm: 60,
+      bpm: 80,
       beatsPerMeasure: 4
     };
 
@@ -86,26 +85,25 @@ class Metronome extends Component {
 
     return (
         <>
-        <ResponsiveAppBar></ResponsiveAppBar>
-        <div className="metronome">
-          <div className="bpm-slider">
-            <h2 className="title-slider">Corazon a Pulso</h2>
-            <p>{bpm} BPM</p>
-            <input
-              type="range"
-              min={40}
-              max={180}
-              step={20}
-              value={bpm}
-              onChange={this.handleInputChange}
-            />
+          <div className="metronome">
+            <div className="bpm-slider">
+              <h2 className="title-slider">Corazon a Pulso</h2>
+              <p>{bpm} BPM</p>
+              <input
+                type="range"
+                min={40}
+                max={180}
+                step={20}
+                value={bpm}
+                onChange={this.handleInputChange}
+              />
+            </div>
+            <Button variant="contained" onClick={this.startStop}>{isPlaying ?   <StopIcon></StopIcon> && <div className="img-heartbeat"><img src={image}></img></div> : <PlayArrowIcon></PlayArrowIcon>}</Button>
           </div>
-          <Button variant="contained" onClick={this.startStop}>{isPlaying ? <StopIcon></StopIcon> : <PlayArrowIcon></PlayArrowIcon>}</Button>
-      </div>
-      <div className="img-heartbeat">
-          <img src={image}></img>
-        </div>
-      </>
+          {/* <div className="img-heartbeat">
+            <img src={image} alt="heart.png" className={isPlaying ? undefined : "stop"}></img>
+          </div> */}
+        </>
     );
   }
 }
