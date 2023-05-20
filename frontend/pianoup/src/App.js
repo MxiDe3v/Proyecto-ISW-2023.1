@@ -101,7 +101,7 @@ function App() {
                 <Route path="/memorice" element={<Memorice/>}/>
                 <Route path="/tempo" element={<Tempo/>}/>
             </Routes>
-            <EmparejarFrecuencia/>
+            <EmparejarDuracion/>
       </div>
     /*
     <div className='app'>
