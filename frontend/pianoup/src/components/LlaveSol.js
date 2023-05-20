@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import {toPng} from 'html-to-image';
 import React,{useCallback, useRef} from 'react';
 import {Stage, Layer, Line} from 'react-konva';
-import "./llavesol.css";
+import "./css/llavesol.css";
 export const LlaveSol = ({SetImagen}) => {
     const [tool, setTool] = React.useState('pen');
     const [lines, setLines] = React.useState([]);
