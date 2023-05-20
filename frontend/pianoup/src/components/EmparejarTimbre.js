@@ -1,5 +1,6 @@
 import React from "https://cdn.skypack.dev/react@17.0.1"
 import { useState } from 'react'
+import { Link } from "react-router-dom"
 import guitarra from './images/guitarra.jpg'
 import flauta from './images/flauta.jpg'
 import tambor from './images/tambor.jpg'
@@ -70,6 +71,9 @@ export const EmparejarTimbre = () => {
     }
     return (
         <>
+            <Link to="/etapa2"> 
+                <button>Volver</button>
+            </Link>
             <h1>
                 Emparejar según el timbre del sonido &nbsp;
             </h1>
