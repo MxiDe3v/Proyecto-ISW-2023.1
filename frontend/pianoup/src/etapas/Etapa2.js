@@ -7,7 +7,6 @@ import './Etapa.css';
 function Etapa2() {
 	return (
 		<>
-			<ResponsiveAppBar />
 			<h1>Etapa 2</h1>
 
 			<div className='d-flex justify-content-center'>
