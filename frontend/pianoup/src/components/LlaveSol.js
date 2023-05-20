@@ -115,6 +115,11 @@ export const LlaveSol = ({SetImagen}) => {
             >Listo
             </button>
         </div>
+        <div>
+            <Link to="/etapa1"> 
+                <button>Volver</button>
+            </Link>
+        </div>
       </div>
     );
   };
