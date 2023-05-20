@@ -1,10 +1,12 @@
-import React from "https://cdn.skypack.dev/react@17.0.1"
-import { useState } from 'react'
-import leon from './images/leon.jpg'
-import vaca from './images/vaca.jpg'
-import lion_sound from './sounds/lion_roar.mp3'
-import cow_sound from './sounds/cow_moo.mp3'
-import './Emparejar.css'
+import React from "https://cdn.skypack.dev/react@17.0.1";
+import { useState } from 'react';
+import leon from './images/leon.jpg';
+import vaca from './images/vaca.jpg';
+import water from './images/water.jpg';
+import lion_sound from './sounds/lion_roar.mp3';
+import cow_sound from './sounds/cow_moo.mp3';
+import water_flowing from './sounds/water_flowing.mp3';
+import './Emparejar.css';
 
 
 export const EmparejarIntensidad = () => {
@@ -22,6 +24,13 @@ export const EmparejarIntensidad = () => {
             title: 'Vaca',
             body: `${vaca}`,
             audio: cow_sound,
+            list: 1
+        },
+        { 
+            id: 3,
+            title: 'Agua corriendo',
+            body: `${water}`,
+            audio: water_flowing,
             list: 1
         },
     ]);
