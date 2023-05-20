@@ -1,24 +1,11 @@
-import './App.css';
-
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
-
-import Home from './Home';
-import Login from './user/Login';
-import Register from './user/Register';
-
-import Etapa1 from './etapas/Etapa1';
-import Etapa2 from './etapas/Etapa2';
-import Etapa3 from './etapas/Etapa3';
-
-import Memorice from './Memorice';
-import Tempo from './Tempo';
-
+import { Link } from "react-router-dom"
 import Card from './components/Card';
+import './Card.css';
 
 import { images } from './import';
 
-function App() {
+function Memorice() {
 
   const [cards, setCards] = useState([]);
   const [firstCard, setFirstCard] = useState({});
@@ -81,20 +68,8 @@ function App() {
   }
 
   return (
-        <div>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login/>} />
-                <Route path="/register" element={<Register/>} />
-                <Route path="/etapa1" element={<Etapa1 />} />
-                <Route path="/etapa2" element={<Etapa2 />} />
-                <Route path="/etapa3" element={<Etapa3 />} />
-                <Route path="/memorice" element={<Memorice/>}/>
-                <Route path="/tempo" element={<Tempo/>}/>
-            </Routes>
-      </div>
-    /*
     <div className='app'>
+      <h1 className="title">Memorice</h1>
       <div className='cards-container' >
         {
           cards.map((card, index) => (
@@ -109,9 +84,14 @@ function App() {
           ))
         }
       </div>
+      <ul>
+        <li>
+          <Link to={"/"} className="button-bottom-center">Home</Link>
+        </li>
+      </ul>
+
     </div>
-    */
   );
 }
 
-export default App;
+export default Memorice;
