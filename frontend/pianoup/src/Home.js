@@ -19,5 +19,10 @@ return (
     <div>
         <Menu/>
     </div>
+<<<<<<< HEAD
 );
+=======
+
+    );
+>>>>>>> f70b861e0b8e6a7c816bb74a7f055abb88d270cf
 }

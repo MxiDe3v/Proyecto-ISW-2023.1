@@ -32,7 +32,9 @@ const ResponsiveAppBar = (props) => {
     }
   }, [user]);
 
-  const pages = ["PlaceHolder1", "PlaceHolder2", "PlaceHolder3"];
+    // pages
+  //const pages = ["Empty", ]; 
+  const pages = []; 
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -80,7 +82,7 @@ const ResponsiveAppBar = (props) => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Home
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
