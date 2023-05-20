@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom"
 import Button from '@mui/material/Button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
@@ -85,6 +86,9 @@ class Metronome extends Component {
 
     return (
         <>
+          <Link to="/etapa1"> 
+                <button>Volver</button>
+            </Link>
           <div className="metronome">
             <div className="bpm-slider">
               <h2 className="title-slider">Corazon a Pulso</h2>
