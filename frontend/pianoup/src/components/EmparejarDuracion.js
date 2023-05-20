@@ -4,10 +4,10 @@ import leon from './images/leon.jpg'
 import vaca from './images/vaca.jpg'
 import lion_sound from './sounds/lion_roar.mp3'
 import cow_sound from './sounds/cow_moo.mp3'
-import './EmparejarSonido.css'
+import './Emparejar.css'
 
 
-export const EmparejarSonido = () => {
+export const EmparejarDuracion = () => {
     
     const [tasks, setTasks] = useState([
         { 
