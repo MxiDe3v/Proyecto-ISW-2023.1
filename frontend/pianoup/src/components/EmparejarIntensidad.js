@@ -1,5 +1,6 @@
 import React from "https://cdn.skypack.dev/react@17.0.1";
 import { useState } from 'react';
+import { Link } from "react-router-dom"
 import leon from './images/leon.jpg';
 import vaca from './images/vaca.jpg';
 import water from './images/water.jpg';
@@ -70,6 +71,9 @@ export const EmparejarIntensidad = () => {
     }
     return (
         <>
+            <Link to="/etapa3"> 
+                <button>Volver</button>
+            </Link>
             <h1>
                 Emparejar según intensidad del sonido &nbsp;
             </h1>
