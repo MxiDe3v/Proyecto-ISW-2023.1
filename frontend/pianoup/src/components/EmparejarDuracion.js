@@ -1,5 +1,6 @@
 import React from "https://cdn.skypack.dev/react@17.0.1"
 import { useState } from 'react'
+import { Link } from "react-router-dom"
 import leon from './images/leon.jpg'
 import vaca from './images/vaca.jpg'
 import lion_sound from './sounds/lion_roar.mp3'
@@ -61,6 +62,9 @@ export const EmparejarDuracion = () => {
     }
     return (
         <>
+            <Link to="/etapa2"> 
+                <button>Volver</button>
+            </Link>
             <h1>
                 Emparejar según duración del sonido &nbsp;
             </h1>
