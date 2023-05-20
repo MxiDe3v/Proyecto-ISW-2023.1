@@ -18,6 +18,7 @@ import Etapa3 from './etapas/Etapa3';
 import { EmparejarDuracion } from './components/EmparejarDuracion';
 import { EmparejarTimbre } from './components/EmparejarTimbre';
 import { EmparejarIntensidad } from './components/EmparejarIntensidad';
+import { EmparejarFrecuencia } from './components/EmparejarFrecuencia';
 
 import Memorice from './Memorice';
 import Tempo from './Tempo';
@@ -100,7 +101,7 @@ function App() {
                 <Route path="/memorice" element={<Memorice/>}/>
                 <Route path="/tempo" element={<Tempo/>}/>
             </Routes>
-            <EmparejarIntensidad/>
+            <EmparejarFrecuencia/>
       </div>
     /*
     <div className='app'>

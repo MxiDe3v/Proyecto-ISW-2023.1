@@ -1,9 +1,11 @@
 import React from "https://cdn.skypack.dev/react@17.0.1"
 import { useState } from 'react'
-import leon from './images/leon.jpg'
-import vaca from './images/vaca.jpg'
-import lion_sound from './sounds/lion_roar.mp3'
-import cow_sound from './sounds/cow_moo.mp3'
+import guitarra from './images/guitarra.jpg'
+import flauta from './images/flauta.jpg'
+import tambor from './images/tambor.jpg'
+import guitarra_sound from './sounds/guitarra.mp3'
+import flauta_sound from './sounds/flauta.mp3'
+import tambor_sound from './sounds/tambor.mp3'
 import './Emparejar.css'
 
 
@@ -12,18 +14,25 @@ export const EmparejarTimbre = () => {
     const [tasks, setTasks] = useState([
         { 
             id: 1,
-            title: 'Leon',
-            body: `${leon}`,
-            audio: lion_sound,
+            title: 'Guitarra',
+            body: `${guitarra}`,
+            audio: guitarra_sound,
             list: 1
         },
         { 
             id: 2,
-            title: 'Vaca',
-            body: `${vaca}`,
-            audio: cow_sound,
+            title: 'Flauta',
+            body: `${flauta}`,
+            audio: flauta_sound,
             list: 1
         },
+        { 
+            id: 3,
+            title: 'Tambor',
+            body: `${tambor}`,
+            audio: tambor_sound,
+            list: 1
+        }
     ]);
 
     // Delete the item with the given id
@@ -131,7 +140,7 @@ export const EmparejarTimbre = () => {
 
                 <div className="column column--3">
                     <h3>
-                        Percusion
+                        Percusión
                     </h3>
                     <div className='dd-zone' droppable="true" onDragOver={(evt => draggingOver(evt))} onDrop={(evt => onDrop(evt, 4))}>
                         {getList(4).map(item => (
