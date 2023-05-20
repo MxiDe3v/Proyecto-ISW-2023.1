@@ -85,7 +85,7 @@ export const EmparejarTimbre = () => {
                                 </div>
                                 <strong className='title'>{item.title}</strong>
                                 <img className='img' src={item.body} alt={item.title}></img>
-                                <p>Escucha su sonido (precaucion volumen)</p>
+                                <p>Escucha su sonido (precaucin volumen)</p>
                                 <audio volume='0.1' controls type="audio/mpeg" src={item.audio}>
                                 </audio>
                             </div>
