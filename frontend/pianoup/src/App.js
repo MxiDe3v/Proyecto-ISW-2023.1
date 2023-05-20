@@ -12,7 +12,7 @@ import Menu from './Menu';
 import Etapa1 from './etapas/Etapa1';
 import Etapa2 from './etapas/Etapa2';
 import Etapa3 from './etapas/Etapa3';
-import { EmparejarSonido } from './components/EmparejarSonido';
+import { EmparejarDuracion } from './components/EmparejarDuracion';
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
               <Route path="/etapa2" element={<Etapa2 />} />
               <Route path="/etapa3" element={<Etapa3 />} />
             </Routes>
-            <EmparejarSonido/>
+            <EmparejarDuracion/>
       </div>
   );
 }
