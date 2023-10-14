@@ -35,22 +35,6 @@ José Rojas
 + Maximiliano Tapia
 + Ignacio Ortiz
 
-### Asignaciones de HU para la entrega 4:
-### Grupo A:
-+ 13: Mostrar Memorice
-+ 14: Reconocer tempo
-### Grupo B:
-+ 1: Dibujar llave de sol en pentagrama
-+ 2: Ver y tocar notas musicales
-### Grupo C:
-+ 11: Emparejar sonidos según duración
-+ 9:  Emparejar sonidos según intensidad
-+ 8:  Emparejar sonidos según timbre
-+ 7:  Emparejar sonidos según frecuencia
-### Grupo D:
-+ 3:  Mostrar corazón a pulso
-+ 16: Escoger actividades
-
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.cl/javier.perez/inf225-2023-1-null-pointer/-/wikis/home)
 
@@ -61,9 +45,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.inf.utfsm.
 + [Video presentación avance 1](HTTPS://YOUTU.BE/Y5VN54HEFK8​)
 + [Video presentación Hito 3](https://www.youtube.com/watch?v=8DXnu7CqKCg)
 + [Video prototipo frontend](https://youtu.be/v9CdPr-FzDo)
-+ Video presentación final (EN PROCESO)
-
-
+  
 
 ## Aspectos técnicos relevantes
 ### Definición de branches:
